@@ -12,7 +12,7 @@ const Hero = () => {
             <p className="text-xl  lg:w-[513px] w-full ">All age activity game, fun and educational. specializes in basic association skills, basic shape identification and awareness, vocabulary learning, word affiliation, alphabet knowledge tool, animal relationships and recognition. all ages especially beneficial for children, older adults and neurological diseases or disorder. </p>
             <div className="flex lg:flex-row flex-col  gap-[190px] items-center ">
              <div className="flex lg:flex-row flex-col items-center gap-0 relative">
-            <Link to="/download" className=" lg:mt-0 mt-10"> <button className="bg-[#800080] relative text-white  w-[220px] h-[54px] border-yellow rounded-lg text-[22px] font-semibold font-font1">Download Now </button></Link>
+            <Link to="/download" className=" lg:mt-0 mt-10"> <button className="bg-[#800080] relative text-white shadow-lg shadow-[#4c4848]  w-[220px] h-[54px] border-yellow rounded-lg text-[22px] font-semibold font-font1">Download Now </button></Link>
               <img src={Maskup} alt="" className=" w-[268px] items-center absolute -top-2 left-[200px]" />
              </div>
              <div>
