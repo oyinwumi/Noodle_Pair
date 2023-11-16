@@ -9,7 +9,7 @@ import Purchase from './pages/Purchase';
 function App() {
 
   return (
-   <div className='font-font1 relative'>
+   <div className='font-font1 relative overflow-x-hidden'>
   
      <Router>
       <NavBar/>

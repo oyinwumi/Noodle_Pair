@@ -8,13 +8,13 @@ import Star from "../assets/stars.svg";
 const Purchase = () => {
   return (
     <div className="   py-10 w-full ">
-        <h2 className="text-[30px] font-font1 font-normal mt-10  mb-5 text-center text-[#252528]">Book From Noodle Pair Owner</h2>
-       <div className=" flex lg:flex-row flex-col pb-14 gap-8  mx-[25%]">
+        <h2 className=" lg:px-0 px-8  text-[30px] font-font1 font-normal mt-10  mb-5 text-center text-[#252528]">Book From Noodle Pair Owner</h2>
+       <div className="lg:px-0 px-8  flex lg:flex-row flex-col pb-14 gap-8  lg:mx-[25%]">
           <div className="">
             <img src={Heart} alt="" />
           </div>
           <div className="">
-             <h4 className="text-3xl mb-4 text-[#110F0F]">Name: a heart so fierce and broken</h4>
+             <h4 className="text-3xl mb-4 text-[#110F0F] capitalize">Name: a heart so fierce and broken</h4>
              <h6 className="text-xl opacity-60">Author: by brigid kemmere</h6>
              <div className="flex gap-2 mt-2">
                 <span>Rate</span>

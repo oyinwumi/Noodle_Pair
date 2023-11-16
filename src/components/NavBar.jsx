@@ -14,7 +14,7 @@ const NavBar = () => {
         <div  onClick={() => setOpen(!open)}className=' text-white text-4xl  font-light ml-2 lg:hidden'>
            <ion-icon name={open ? "close" : "menu"} ></ion-icon>
         </div>
-        <ul  className={` flex lg:flex-row md:flex-col flex-col items-center justify-center px-4 py-4 md:z-50 z-50 lg:static  md:absolute absolute  right-0 lg:w-auto md:w-full w-full   text-[22px]
+        <ul  className={` flex lg:flex-row md:flex-col flex-col bg-[#310080]  items-center justify-center px-4 py-4 md:z-50 z-50 lg:static  md:absolute absolute  right-0 lg:w-auto md:w-full w-full   text-[22px]
          md:pb-0 pb-12   md:opacity-100 transition-all ease-in duration-500 ${open ? 'top-20' : 'top-[-490px]'} `}>
            <Link to="/" > <li className=' font-normal px-4 lg:pb-0 md:pb-6 pb-6 hover:font-bold  text-center '>Home</li></Link>
            <Link to=""> <li className='font-normal px-4 lg:pb-0 md:pb-6 pb-6 hover:font-bold  text-center' >About Us</li></Link>

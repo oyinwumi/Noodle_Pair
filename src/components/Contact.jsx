@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <div className="text-white bg-white lg:px-20 px-8 py-8 ">
         <h3 className="text-3xl font-font1 text-center text-[#252528] pb-10">Get In Touch With Us Today!</h3>
-        <div className="p-3 border-2 rounded-xl shadow-inner shadow-[#6e6969] flex  ">
-           <div className="text-white bg-[#250325] pt-10 px-10 lg:h-[647px] lg:w-[500px] border rounded-lg font-font1">
+        <div className="p-3 border-2 rounded-xl shadow-inner shadow-[#6e6969] flex lg:flex-row flex-col ">
+           <div className="text-white bg-[#250325] pt-10 px-10 lg:h-[647px] lg:w-[500px] w-full border rounded-lg font-font1">
                <h4 className="text-[28px] font-semibold ">Contact Information</h4>
                <p className="text-lg  mt-5 font-normal"> Get in touch with us and get quick response. We are dedicated and giving you the best user service. Thank You.</p>
                <div className="pt-14 font-normal font-font1 ">
@@ -29,7 +29,7 @@ const Contact = () => {
                     <p>132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
                   </div>
                </div>
-               <div className="flex gap-6 pt-16">
+               <div className="flex gap-6 pt-16 lg:pb-0 pb-8" >
                <img src={Ig} alt="" />
                <img src={Tx} alt="" />
                <img src={Game} alt="" />
@@ -37,8 +37,8 @@ const Contact = () => {
                </div>
            </div>
            
-             <form action="" className="pt-10 px-20">
-                <div className=" text-[#110F0F] flex gap-8 "> 
+             <form action="" className="pt-10 lg:px-20 px-8">
+                <div className=" text-[#110F0F] flex lg:flex-row flex-col gap-8 "> 
                     <div>
                         <label htmlFor="">First Name</label><br />
                         <input type="text" className="outline-none border-t-0 border-l-0 border-r-0 border-b-2 py-4 border-b-[#110F0F]  lg:w-[480px] w-full " />
@@ -48,7 +48,7 @@ const Contact = () => {
                         <input type="text" className="outline-none border-t-0 border-l-0 border-r-0 border-b-2 py-4 border-b-[#110F0F]  lg:w-[480px] w-full " />
                     </div>
                 </div>
-                <div className=" text-[#110F0F] flex gap-8 py-10 "> 
+                <div className=" text-[#110F0F] flex lg:flex-row flex-col gap-8 py-10 "> 
                     <div>
                         <label htmlFor="">Email</label><br />
                         <input type="email" className="outline-none border-t-0 border-l-0 border-r-0 border-b-2 py-4 border-b-[#110F0F]  lg:w-[480px] w-full " />
