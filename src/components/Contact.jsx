@@ -62,7 +62,7 @@ const Contact = () => {
                     <label htmlFor="">Description</label><br />
                     <textarea name="" id="" cols="30"  placeholder="Type here..." className="border  w-full h-[230px]  border-[#110F0F] rounded-lg p-4 outline-none text-[#110F0F]"></textarea>
                 </div>
-                <button className= "bg-[#800080] text-center shadow-lg shadow-[#4c4848] mt-5 text-[#FFFFFF] w-[224px] h-[56px] border-[#800080] rounded-lg text-[22px] font-semibold font-font1 items-center lg:mx-[40%] ">Send Message </button>
+                <button className= "bg-[#800080] text-center  mt-5 text-[#FFFFFF] w-[224px] h-[56px] border-[#800080] rounded-lg text-[22px] font-semibold font-font1 items-center lg:mx-[40%] ">Send Message </button>
              </form>
            
         </div>
