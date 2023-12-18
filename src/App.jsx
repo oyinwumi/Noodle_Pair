@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Download from './pages/Download';
 import Purchase from './pages/Purchase';
 import Terms from './pages/Terms';
+import AboutUs from './pages/AboutUs';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         <Route path='/download' element={<Download/>}/>
         <Route path='/purchase' element={<Purchase/>}/>
         <Route path='/terms' element={<Terms/>}/>
+        <Route path='/about-us' element={<AboutUs/>}/>
+
        </Routes>
        <Footer/>
      </Router>
