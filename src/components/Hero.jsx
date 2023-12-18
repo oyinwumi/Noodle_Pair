@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="flex lg:flex-row flex-col  lg:gap-[190px] gap-6 items-center ">
              <div className="flex lg:flex-row flex-col items-center gap-0 relative">
             <Link to="/download" className=" lg:mt-0 mt-10"> <button className="bg-[#800080] relative text-white shadow-lg shadow-[#4c4848]  w-[220px] h-[54px]  rounded-lg text-[22px] font-semibold font-font1">Download Now </button></Link>
-              <img src={Maskup} alt="" className=" w-[268px] items-center lg:absolute  relative lg:-top-2 top-0 lg:left-[200px] left-0" />
+              <img src={Maskup} alt="" className=" w-[268px] items-center lg:absolute  relative lg:-top-2 top-0 lg:left-[200px] left-0 lg:origin-center lg:rotate-0  origin-center rotate-90" />
              </div>
              <div>
               <div className="  lg:mt-20 mt-0  flex   lg:flex-row flex-col items-center text-[24px] gap-1"><span>5.0 App Review</span><img src={Stars} alt="" /></div>
